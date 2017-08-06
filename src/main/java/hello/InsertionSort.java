@@ -51,20 +51,9 @@ public class InsertionSort {
         for (int i = 0; i < ar.length; i++) {
             System.out.print(ar[i]);
         }
-/*        System.out.println();
-        for(int i=ar.length-1;i>=0;i--){
-            System.out.print(" "+ar[i]);
-        }*/
         insertIntoSorted(ar);
     }
 
-
-    private static void printArray(int[] ar) {
-        for(int n: ar){
-            System.out.print(n+" ");
-        }
-        System.out.println("");
-    }
 
 
 }
